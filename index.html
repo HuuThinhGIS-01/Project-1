@@ -5,16 +5,32 @@
         <title>Cà Phê Làng Đại Học</title>
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
         <link rel="stylesheet" href="Style.css"/>
+        <link rel="icon" type="image/png" href="nlu1.png"/>
     </head>
     <body>
-        <div class="search1">
-            <input type="text" id="inputschool" placeholder="Nhập Tên Trường Trong Làng Đại Học">
-            <button id="search2" title="Ấn vào đó để tìm kiếm Nhé :>>>">Tìm Kiếm</button>
+        <div class="background">
+            <div class="search1">
+                <input type="text" id="inputschool" placeholder="Nhập Tên Trường Trong Làng Đại Học">
+                <button id="search2" title="Ấn vào đó để tìm kiếm Nhé :>>>" >Tìm Kiếm</button>
+            </div>
+            <div id="map"></div>
+            <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="Script.js"></script>
+            <div class="face">
+                <h1 id="contact">Contact for me below the webs</h1>
+                <p align="center">
+                    <a href="https://www.facebook.com/huu.thinh.67749" target="_blank">
+                        <img src="https://img.icons8.com/?size=100&id=z657ovoGgS2o&format=png&color=000000" width="100" alt="Facebook"/>
+                    </a>
+                    <a href="https://github.com/HuuThinhGIS-01" target="_blank">
+                        <img src="https://img.icons8.com/?size=100&id=efFfwotdkiU5&format=png&color=000000" width="100" alt="GitHub"/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/th%E1%BB%8Bnh-h%E1%BB%AFu-0b5b03385/" target="_blank">
+                        <img src="https://img.icons8.com/?size=100&id=44019&format=png&color=000000" width="100" alt="LinkedIn"/>
+                    </a>
+                </p>   
+            </div>
         </div>
-        <div id="map"></div>
-        <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    
-        <script src="Script.js"></script>
     </body>
 </html>
