@@ -1,30 +1,64 @@
+.background{
+    background-color: rgb(59, 173, 55);
+    padding: 30px;
+    overflow: hidden;
+}
 #map {
     
-    height: 100vh;
+    height: 90vh;
     width: 100%;
+    border-radius: 20px;
+    border-width: 4px;
+    border-color: rgb(133, 236, 73);
+    border-style: solid;
+    padding: 5px;
+    margin-bottom: 20px;
 }
 .search1 {
     position: absolute;
-    top: 40px;
+    top: 60px;
     left: 50%;
     transform: translateX(-50%);
-    z-index: 1000; 
-    background: green;
+    transform: rotateY('-50%');
+    z-index: 500; 
+    display: flex;
+    border-width: 5px;
+    border-style: outset;
+    border-color: greenyellow;
+    gap: 15px;
+    background:  rgb(39, 219, 15);
     padding: 15px;
     border-radius: 50px;
-    box-shadow: 0  5px rgb(51, 247, 25);
+    box-shadow: 0  5px rgb(6, 241, 6);
 }
 
 #inputschool {
     padding: 5px;
-    width: 200px;
+    width: 250px;
+    border-width: 5px;
     border-color: aqua;
     border-radius: 50px;
 }
 #search2 {
     padding: 5px;
+    width: 100px;
     border-color: aqua;
     border-radius: 50px;
     background-color: cornflowerblue;
     cursor: pointer;
 }
+.face{
+    height: 150px;
+    padding: 100px;
+    background-color: rgb(184, 255, 118);
+    border: 50px;
+    margin-top: 5%;
+    border-radius: 40vh;
+}
+#contact{
+    transform: translateY(-60px);
+    color: rgb(78, 79, 146);
+    font-size: 20px;
+    text-align: center;
+}
+    
