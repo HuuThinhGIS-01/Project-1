@@ -1,7 +1,6 @@
 .background{
-    background-color: rgb(59, 173, 55);
+    background-color: rgba(66, 236, 61, 0.808);
     padding: 30px;
-    overflow: hidden;
 }
 #map {
     
@@ -9,7 +8,7 @@
     width: 100%;
     border-radius: 20px;
     border-width: 4px;
-    border-color: rgb(133, 236, 73);
+    border-color: rgb(90, 207, 22);
     border-style: solid;
     padding: 5px;
     margin-bottom: 20px;
@@ -19,47 +18,97 @@
     top: 60px;
     left: 50%;
     transform: translateX(-50%);
-    transform: rotateY('-50%');
     z-index: 500; 
     display: flex;
     border-width: 5px;
     border-style: outset;
-    border-color: greenyellow;
-    gap: 15px;
-    background:  rgb(39, 219, 15);
+    border-color: rgb(181, 226, 114);
+    gap: 20px;
+    background:  rgb(31, 245, 3);
     padding: 15px;
     border-radius: 50px;
-    box-shadow: 0  5px rgb(6, 241, 6);
+    align-items: center;
+    padding-left: 14px;
+    padding-right: 14px;
+    
+    
+    
+}
+.material-symbols-outlined{
+    color: #6111ca;
+    
+    
 }
 
+
 #inputschool {
-    padding: 5px;
-    width: 250px;
-    border-width: 5px;
-    border-color: aqua;
-    border-radius: 50px;
+   
+   outline: none;
+   border: none;
+   background: transparent;
+   font-family: 'Lexend',sans-serif;
+
+   
 }
 #search2 {
     padding: 5px;
+    height: 35px;
     width: 100px;
-    border-color: aqua;
+    border-color: rgba(224, 13, 143, 0.966);
     border-radius: 50px;
-    background-color: cornflowerblue;
+    background-color: rgba(25, 159, 236, 0.795);
     cursor: pointer;
 }
+#search2 .material-symbols-outlined{
+    color: #df276d !important;
+    font-size: 25px;
+    font-weight: bold;
+}
+#search2:hover{
+    background-color: #e99b09e7;
+    transform: scale(1) ;
+    transition: 0.75s;
+    box-shadow: 0px 8px 15px rgb(192, 212, 5);
+}
+.search1:hover{
+    box-shadow: 0 -10px 15px rgba(0, 0, 0, 0.2);
+    border-color: #051ceb;
+    transition: 0.75s;
+}
+
+
+
+
+    
+
 .face{
     height: 150px;
     padding: 100px;
     background-color: rgb(180, 243, 122);
     border: 50px;
-    margin-top: 5%;
+    margin-top: 10%;
     border-radius: 40vh;
+    margin-right: 15px;
+}
+.face:hover{
+    transition: 1s;
+    background-color:  rgb(250, 220, 98);
+    transform: linear;
 }
 #contact{
-    transform: translateY(-60px);
-    color: rgb(78, 79, 146);
+    transform: translateY(-50px);
+    color: rgb(10, 170, 219);
     font-size: 20px;
     text-align: center;
-}
-    
+    cursor: pointer;
 
+}
+.face a img{
+    transition: 0.5s;
+    transform: linear;
+    margin-right: 1.2% ;
+}
+.face a img:hover{
+    transform: scale(1.5) rotate(-10deg);
+
+}
